@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package userOrder;
+
+option go_package = "./proto;userOrder";
+
+service UserOrder {
+	rpc CreateOrder(Request) returns (Response) {};
+	rpc GetOrderInfo(GetReq)returns(GetResp){};
+	rpc UpdateStatus(UpdateReq)returns(UpdateResp){};
+}
+
+message UpdateReq{
+	string action = 1;
+	string reason = 2;
+	string id = 3;
+}
+
+message UpdateResp{
+	string errCode = 1;
+}
+
+
+message GetReq{
+	string role = 1;
+	string userName = 2;
+}
+
+message GetResp{
+	string errCode = 1;
+	GetData data = 2;
+}
+
+
+message GetData{
+	repeated OrdersData orders = 1;
+}
+
+message OrdersData{
+	int32 amount = 1;
+	string comment = 2;
+	string ctime = 3;
+	int32 days = 4;
+	string endDate = 5;
+	string imgUrl = 6;
+	int32 orderId = 7;
+	string startDate = 8;
+	string status = 9;
+	string title = 10;
+}
+
+
+
+message Request {
+	string houseId = 1;
+	string startDate = 2;
+	string endDate = 3;
+	string userName = 4;
+}
+
+message Response {
+	string errCode= 1;
+	OrderData data = 2;
+}
+
+message OrderData{
+	string orderId = 1;
+}
