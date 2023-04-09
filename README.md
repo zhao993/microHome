@@ -58,44 +58,25 @@ sudo /usr/local/nginx/sbin/nginx
 ## 项目布局
 
 分为服务端和web端
-
 service
- ├── getArea
- │   ├── 获取地区信息微服务
- ├── getCaptcha
- │   ├── 获取验证码图片微服务
- ├── register
- │   ├── 用户注册微服务，包括发送短信验证码，注册和登录业务
- ├── user
- │   ├── 用户相关微服务，包括展示用户信息，更新用户名，上传用户头像和实名认证业务
- ├── house
- │   ├── 房子相关的微服务，包括发布房源信息，上传房源图片，获取详细信息，按地区搜索房子等业务
- ├── userOrder
- │   ├── 用户订单微服务，包括创建用户订单，获得订单详情等业务
+getArea     获取地区信息微服务
+getCaptcha  获取验证码图片微服务
+register   用户注册微服务，包括发送短信验证码，注册和登录业务
+user       用户相关微服务，包括展示用户信息，更新用户名，上传用户头像和实名认证业务
+house      房子相关的微服务，包括发布房源信息，上传房源图片，获取详细信息，按地区搜索房子等业务
+userOrder  用户订单微服务，包括创建用户订单，获得订单详情等业务
 web
- ├── conf 
- │  ├── web端配置文件
- ├── controller
- │   ├── 处理业务层
- ├── dao
- │   ├── 数据库相关
- ├── log
- │   ├── 日志文件
- ├── logger
- │   ├── 日志配置相关业务
- ├── model
- │   ├── 数据库模型
- ├── proto
- │   ├── 与服务端建立连接的protoc文件
- ├── router
- │   ├── 路由模块
- ├── setting
- │   ├── 读取配置文件模块
- ├── test
- │   ├── 测试文件
- ├── utils
- │   ├── 一些工具类文件
- ├── view
- │   ├── 前端页面展示
- ├── main.go
- └── README.md
+conf        web端配置文件
+controller   处理业务层
+dao          数据库相关
+log          日志文件
+loggerm      日志配置相关业务
+model        数据库模型
+proto        与服务端建立连接的protoc文件
+router       路由模块
+setting      读取配置文件模块
+test         测试文件
+utils        一些工具类文件
+view        前端页面展示
+main.go
+README.md
