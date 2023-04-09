@@ -1,0 +1,68 @@
+{"level":"INFO","time":"2023-04-06T13:17:16.370+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T13:17:16.377+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T13:17:16.675+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-06T13:18:21.422+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:18:51.433+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:19:21.450+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:19:51.460+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:20:21.483+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"INFO","time":"2023-04-06T13:20:40.131+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T13:20:40.137+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T13:20:40.173+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-06T13:37:11.419+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:37:41.425+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:38:11.429+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:38:41.449+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"INFO","time":"2023-04-06T13:40:21.193+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T13:40:21.197+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T13:40:21.359+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-04-06T13:46:40.125+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T13:46:40.130+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T13:46:40.191+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-04-06T13:52:47.377+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T13:52:47.382+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T13:52:47.444+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-06T13:53:59.599+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:54:29.604+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:54:59.617+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:55:29.629+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:55:59.642+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:55:59.642+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:56:29.661+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:56:59.677+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:56:59.678+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service user: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-04-06T13:56:59.679+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service user: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-04-06T13:56:59.680+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service user: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-04-06T13:57:29.696+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:57:29.697+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:57:59.714+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:58:29.729+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T13:58:59.733+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"INFO","time":"2023-04-06T13:59:34.039+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T13:59:34.141+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T13:59:34.207+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-06T14:00:14.254+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:00:44.263+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:01:14.270+0800","caller":"controller/user.go:43","msg":"call error:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:01:44.278+0800","caller":"controller/user.go:43","msg":"call error:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"INFO","time":"2023-04-06T14:02:03.163+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T14:02:03.180+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T14:02:03.232+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-06T14:03:43.130+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:04:13.135+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:04:55.176+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:05:25.191+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:05:55.206+0800","caller":"controller/user.go:136","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:06:25.217+0800","caller":"controller/user.go:136","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:06:55.228+0800","caller":"controller/user.go:136","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:06:55.228+0800","caller":"controller/user.go:136","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:07:25.245+0800","caller":"controller/user.go:136","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:07:55.250+0800","caller":"controller/user.go:136","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"INFO","time":"2023-04-06T14:08:19.263+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-06T14:08:19.267+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-06T14:08:19.316+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-06T14:08:54.442+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:09:24.456+0800","caller":"controller/house.go:151","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:09:54.469+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:10:24.477+0800","caller":"controller/user.go:174","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-04-06T14:10:24.479+0800","caller":"controller/order.go:68","msg":"远程函数 GetHouseDetail 失败:","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service userOrder: not found\",\"status\":\"Internal Server Error\"}"}

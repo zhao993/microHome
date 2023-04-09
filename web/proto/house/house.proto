@@ -1,0 +1,137 @@
+syntax = "proto3";
+
+package house;
+
+option go_package = "./proto;house";
+
+service House {
+	rpc PubHouse(Request) returns (Response) {};
+	rpc UploadHouseImg(ImgReq)returns(ImgResp){};
+	rpc GetHouseInfo(GetReq)returns(GetResp){};
+	rpc GetHouseDetail(DetailReq)returns(DetailResp){};
+	rpc GetIndexHouse(IndexReq)returns(GetResp){};
+	rpc SearchHouse(SearchReq)returns(GetResp){};
+}
+
+message SearchReq{
+	string aid = 1;
+	string sd = 2;
+	string ed = 3;
+	string sk = 4;
+}
+
+message IndexReq{
+}
+
+
+message DetailReq{
+	string houseId = 1;
+	string userName = 2;
+}
+
+message DetailResp{
+	string errCode = 1;
+	DetailData data = 2;
+}
+
+message DetailData{
+	HouseDetail house = 1;
+	int32 userId = 2;
+}
+
+message HouseDetail{
+	int32 acreage = 1;
+	string address = 2;
+	string beds = 3;
+	int32 capacity = 4;
+	//comment
+	repeated CommentData comments = 5;
+	int32 deposit=6;
+	//展示所有的图片 主图片和副图片
+	repeated int32 facilities = 7; //家具id切片
+	int32 hid = 8;
+	repeated string imgUrls = 9;
+	int32 maxDays = 10;
+	int32 minDays = 11;
+	int32 price = 12;
+	int32 roomCount = 13;
+	string title = 14;
+	string unit = 15;
+	string userAvatar = 16;
+	int32 userId = 17;
+	string userName = 18;
+}
+
+message CommentData{
+	string comment = 1;
+	string ctime = 2;
+	string userName = 3;
+}
+
+
+message GetReq{
+	string userName = 1;
+}
+
+message GetResp{
+	string errCode = 1;
+	GetData data = 2;
+}
+
+message GetData{
+	repeated Houses houses = 1;
+}
+
+message Houses {
+	string address = 1;
+	string areaName = 2;
+	string ctime = 3;
+	int32 houseId = 4;
+	string imgUrl = 5;
+	int32 orderCount = 6;
+	int32 price = 7;
+	int32 roomCount = 8;
+	string title = 9;
+	string userAvatar = 10;
+}
+
+message ImgReq{
+	string houseId = 1;
+	bytes imgData = 2;
+	string fileExt = 3;
+}
+
+message ImgResp{
+	string errCode = 1;
+	ImgData data = 2;
+}
+
+message ImgData{
+	string url = 1;
+}
+
+message Request {
+	string acreage = 1;
+	string address = 2;
+	string areaId = 3;
+	string beds = 4;
+	string capacity = 5;
+	string deposit = 6;
+	repeated string facility = 7;
+	string maxDays = 8;
+	string minDays = 9;
+	string price = 10;
+	string roomCount = 11;
+	string title = 12;
+	string unit = 13;
+	string userName = 14;
+}
+
+message Response {
+	string errCode = 1;
+	HouseData data = 2;
+}
+
+message HouseData{
+	string houseId = 1;
+}

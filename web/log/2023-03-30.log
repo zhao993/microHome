@@ -1,0 +1,143 @@
+{"level":"INFO","time":"2023-03-30T15:16:48.948+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:16:48.956+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:16:49.008+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:18:28.468+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:18:28.474+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:18:28.530+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:20:32.990+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:20:32.998+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:20:33.050+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:25:09.653+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:25:09.662+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:25:09.706+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-03-30T15:25:18.412+0800","caller":"controller/user.go:63","msg":"ddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:25:18.430+0800","caller":"controller/user.go:63","msg":"ddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:25:18.444+0800","caller":"controller/user.go:63","msg":"ddddddddd","error":"4109"}
+{"level":"INFO","time":"2023-03-30T15:26:54.005+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:26:54.011+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:26:54.066+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:29:06.300+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:29:06.307+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:29:06.360+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:31:04.554+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:31:04.561+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:31:04.608+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:36:47.997+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:36:48.009+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:36:48.068+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:42:29.047+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:42:29.053+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:42:29.108+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:48:41.943+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:48:41.950+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:48:42.003+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:51:41.417+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:51:41.423+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:51:41.472+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T15:57:43.812+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T15:57:43.818+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T15:57:43.884+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-03-30T15:57:49.574+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:59:52.195+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:59:53.355+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:59:53.776+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:59:54.342+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:59:54.540+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"ERROR","time":"2023-03-30T15:59:54.716+0800","caller":"controller/user.go:65","msg":"sdddddddddd","error":"4109"}
+{"level":"INFO","time":"2023-03-30T16:25:01.650+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T16:25:01.753+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T16:25:01.790+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T16:51:12.805+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T16:51:12.815+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T16:51:12.933+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T16:56:47.536+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T16:56:47.541+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T16:56:47.602+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-03-30T16:57:52.878+0800","caller":"controller/user.go:66","msg":"sdddddddddd","error":"\"4109\""}
+{"level":"ERROR","time":"2023-03-30T16:57:54.590+0800","caller":"controller/user.go:66","msg":"sdddddddddd","error":"\"4109\""}
+{"level":"ERROR","time":"2023-03-30T17:00:10.021+0800","caller":"controller/user.go:66","msg":"sdddddddddd","error":"\"4109\""}
+{"level":"ERROR","time":"2023-03-30T17:00:51.818+0800","caller":"controller/user.go:66","msg":"sdddddddddd","error":"\"4109\""}
+{"level":"INFO","time":"2023-03-30T17:05:20.419+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T17:05:20.424+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T17:05:20.500+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T17:21:51.543+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T17:21:51.571+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T17:21:51.625+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T17:26:48.525+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T17:26:48.531+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T17:26:48.607+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T17:40:59.042+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T17:40:59.152+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T17:40:59.219+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:00:16.135+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:00:16.236+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:00:16.289+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:02:59.048+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:02:59.053+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:02:59.124+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:11:31.501+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:11:31.507+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:11:31.558+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:15:23.841+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:15:23.848+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:15:23.901+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:27:02.492+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:27:02.498+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:27:02.577+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:28:09.860+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:28:09.866+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:28:09.918+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T18:34:17.224+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T18:34:17.229+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T18:34:17.282+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T19:18:12.859+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:18:12.884+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:18:12.943+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-03-30T19:19:34.654+0800","caller":"controller/user.go:38","msg":"call error:","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service getCaptcha: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-03-30T19:19:34.657+0800","caller":"controller/user.go:38","msg":"call error:","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service getCaptcha: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-03-30T19:19:34.662+0800","caller":"controller/user.go:38","msg":"call error:","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service getCaptcha: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-03-30T19:19:34.667+0800","caller":"controller/user.go:38","msg":"call error:","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service getCaptcha: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"INFO","time":"2023-03-30T19:30:19.717+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:30:19.765+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:30:19.830+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T19:35:27.662+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:35:27.666+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:35:27.718+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T19:36:59.886+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:36:59.891+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:36:59.942+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T19:38:08.354+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:38:08.364+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:38:08.414+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T19:44:00.630+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:44:00.636+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:44:00.692+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T19:49:36.827+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T19:49:36.831+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T19:49:36.879+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:05:35.528+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:05:35.557+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:05:35.619+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:09:46.306+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:09:46.312+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:09:46.539+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:12:28.205+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:12:28.209+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:12:28.255+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:12:54.904+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:12:54.909+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:12:54.954+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-03-30T20:15:12.638+0800","caller":"controller/user.go:100","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"ERROR","time":"2023-03-30T20:15:42.652+0800","caller":"controller/user.go:100","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"INFO","time":"2023-03-30T20:31:37.648+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:31:37.665+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:31:41.576+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:32:55.802+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:32:55.808+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:32:55.874+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:40:52.957+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:40:52.963+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:40:53.262+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"INFO","time":"2023-03-30T20:43:24.511+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-30T20:43:24.517+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-03-30T20:43:24.568+0800","caller":"mysql/migration.go:22","msg":"register table success"}

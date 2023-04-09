@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "./proto;user";
+
+service User {
+	rpc UserInfo(NameData) returns (Response) {};
+	rpc UpdateUserName(UpdateReq)returns(UpdateResp){};
+	rpc UploadAvatar(UploadReq)returns(UploadResp){};
+	rpc AuthUpdate(AuthReq)returns(CallResponse){};
+}
+
+message AuthReq{
+	string idCard = 1;
+	string realName = 2;
+	string name = 3;
+}
+
+message NameData{
+	string name = 1;
+}
+
+message CallResponse{
+	string errCode = 1;
+}
+
+message UploadData{
+	string avatarUrl = 1;
+}
+
+message UploadResp{
+	string errCode = 1;
+	UploadData data = 2;
+}
+
+message UploadReq{
+	bytes avatar = 1;
+	string userName = 2;
+	string fileExt = 3;
+}
+
+message UpdateReq{
+	string newName = 1;
+	string oldName = 2;
+}
+
+message UpdateResp{
+	string errCode = 1;
+	NameData data = 2;
+}
+
+message Request {
+	string name = 1;
+}
+
+message Response {
+	string errCode = 1;
+	UserInfo data = 3;
+}
+
+message UserInfo{
+	int32 userId = 1;
+	string name = 2;
+	string mobile = 3;
+	string realName = 4;
+	string idCard = 5;
+	string avatarUrl = 6;
+}

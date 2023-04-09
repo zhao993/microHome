@@ -1,0 +1,6 @@
+{"level":"INFO","time":"2023-04-08T21:17:41.665+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"INFO","time":"2023-04-08T21:17:44.164+0800","caller":"mysql/mysql.go:35","msg":"mysql连接成功"}
+{"level":"INFO","time":"2023-04-08T21:17:45.738+0800","caller":"mysql/migration.go:22","msg":"register table success"}
+{"level":"ERROR","time":"2023-04-08T21:20:14.102+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service getarea: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-04-08T21:20:21.575+0800","caller":"controller/user.go:112","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service getarea: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"ERROR","time":"2023-04-08T21:21:11.369+0800","caller":"controller/user.go:275","msg":"err","error":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"call timeout: context deadline exceeded\",\"status\":\"Request Timeout\"}"}

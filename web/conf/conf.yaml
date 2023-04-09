@@ -1,0 +1,31 @@
+name: "ihomeApp"
+version: "v1.0"
+mode: "dev"
+port: "127.0.0.1:8080"
+
+log:
+  level: "debug"
+  filepath: "web/log/"
+  max_size: 100
+  max_age: 30
+  max_backups: 10
+
+mysql:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "mysql"
+  dbname: "ihome"
+  max_idle_conns: 10
+  max_open_conns: 100
+
+
+redis:
+  host: "127.0.0.1"
+  port: "6379"
+  password:
+  db: 0
+  max_idle: 20
+  max_active: 100
+  max_conn_lifetime: 60
+  idle_timeout: 240
